@@ -4,6 +4,7 @@
   "description": "Simple Web App",
   "main": "fileSystemAndIndexPage.js",
   "scripts": {
+    "start": "node fileSystemAndIndexPage.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/pauljyotirmay/MyNodeApps/issues"
   },
-  "homepage": "https://github.com/pauljyotirmay/MyNodeApps#readme"
+  "homepage": "https://github.com/pauljyotirmay/MyNodeApps#readme",
+  "dependencies": {
+    "heroku": "^7.59.3"
+  }
 }

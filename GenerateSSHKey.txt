@@ -43,3 +43,5 @@ Press ^C at any time to quit.
 package name: (nodefiles)
 ---------------------------------------------
 3. Hit enter
+4. Login to Heroku (If GitBash does not work, use cmd)
+5. Create a Heroku App --> heroku create
