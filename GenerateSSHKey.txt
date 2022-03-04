@@ -22,3 +22,4 @@ Updating code and push it to Git
 --------------------------------
 1. git add .
 2. git commit -am "First Code Update"
+3. git push
