@@ -11,5 +11,14 @@ How to Generate ssh key?
 9. git config --global push.default matching
 10. git config --global alias.co checkout
 11. git init
-12. git add .
-13. git commit -am "Initial Commit"
+12. Add everything inside the local repo --> git add .
+13. Add Message --> git commit -am "Initial Commit"
+14. Create GitHub repo in the GitHub (if not available, then create)
+15. Run commands to push the code to git --> git remote add origin https://github.com/pauljyotirmay/MyNodeApps.git --> git branch -M main --> git push -u origin main
+
+
+
+Updating code and push it to Git
+--------------------------------
+1. git add .
+2. git commit -am "First Code Update"
