@@ -23,3 +23,23 @@ Updating code and push it to Git
 1. git add .
 2. git commit -am "First Code Update"
 3. git push
+
+
+Push code to heroku
+-------------------
+1. npm init
+2. We get the following message
+--------------------------------------------
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (nodefiles)
+---------------------------------------------
+3. Hit enter

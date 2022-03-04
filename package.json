@@ -1,0 +1,19 @@
+{
+  "name": "nodefiles",
+  "version": "17.6.0",
+  "description": "Simple Web App",
+  "main": "fileSystemAndIndexPage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pauljyotirmay/MyNodeApps.git"
+  },
+  "author": "Jyotirmay Paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pauljyotirmay/MyNodeApps/issues"
+  },
+  "homepage": "https://github.com/pauljyotirmay/MyNodeApps#readme"
+}
