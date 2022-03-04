@@ -1,0 +1,15 @@
+How to Generate ssh key?
+1. Make ssh directory (hidden directory) inside /c/User/jypaul --> mkdir .ssh
+2. Run command --> ssh-keygen.exe
+3. List the stuff in the directory --> Run Command --> ls
+4. Copy the public ssh key --> cat id_rsa.pub
+5. Public ssh key look like this --> ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCixsM6gsqKRdZjhk/+3J186gNHdfbeoj48T+OGi8kBQtT5PBFTh2HbCRUAOX37Pfb24HuiBrqufuXl8bD2WQU9Ybkf40NqCbuDi6ciTh8K+3eizGnmFu5E0vV+afXdTxJBuwtka25HxDffnSP1uVDMcPl0oDbLekn0AHsYyfBBm6d0g7C4MzTUnr7VwnQx3jDCHMQZFQEIZmMuLhgx1OqMJeSVxTo0I5SQPuyJCqDOj+gl6NoQZ04dsnnONRlAHLB7vBvakbtJg0Crh96X1ZPmxvop7gm2TZZchHZBVywuXbPz9NWUG5skjTakM5nnHgJ6x9C6oKdmbWhglCaPoVXruYy1lqKSwRcIxjUOK+RWA/rtliDnMM7P67JynhxegsqTv9UWi1ABFaiy6IwCf0dVf781Ibfn3bKVP7vSGUB9Fha3+5Ks1z4DU6kiMG4vcpSDDwtmpv5VbSxBJy24v7Pvu3kDg5miPPPBQ26HCFz67oDgLX5+WzZXO5pPDdlVCEc= jypaul@INKOLJYPAUL
+
+6. Add the ssh key into the Github account
+7. Git keeps track of who make what changes when. --> git config --global user.name "Jyotirmay Paul"
+8. git config --global user.email "pauljyotirmay@gmail.com"
+9. git config --global push.default matching
+10. git config --global alias.co checkout
+11. git init
+12. git add .
+13. git commit -am "Initial Commit"
